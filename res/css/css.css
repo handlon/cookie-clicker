@@ -1,0 +1,27 @@
+body {
+    background-image: url(/res/img/R.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#susenka{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: scale(1.00);
+    transition: 300ms ease;
+
+}
+#susenka:hover{
+    transform: scale(1.05);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+#susenka:active{
+    transform: scale(1.00);
+   
+}
+#counter{
+    text-align: center;
+    font-size: 300%;
+    font-family: sans-serif;
+}
