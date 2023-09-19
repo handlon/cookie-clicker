@@ -1,7 +1,10 @@
 body {
-    background-image: url(/res/img/R.jfif);
+    background-image: url(./res/img/R.jfif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+*{
+    user-select: none;
 }
 #susenka{
     display: block;
