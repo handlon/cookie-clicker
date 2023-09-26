@@ -8,12 +8,15 @@ let costOfClickUpgrade = 20;
 let clickUpgradeIncrease = 1;
 let autoClickIncrease = 0;
 let autoclick;
+let autoclickcost = 100;
 
 
 autoclicker.onclick = () => {
-    if (numberOfCookies >= 100) {
+    if (numberOfCookies >= autoclickcost) {
 
-        numberOfCookies -= 100;
+        numberOfCookies -= autoclickcost;
+        autoclickcost *=2;
+        autoclicker.innerText = "autoclicker cost:" + autoclickcost;
         counter.innerText = "počet orea:" + numberOfCookies;
         autoClickIncrease ++;
         clearInterval(autoclick);
