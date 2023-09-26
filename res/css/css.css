@@ -12,6 +12,8 @@ body {
     margin-right: auto;
     transition: scale(1.00);
     transition: 300ms ease;
+    width: 20%;
+    height: 20%;
 
 }
 #susenka:hover{
@@ -28,7 +30,7 @@ body {
     font-size: 300%;
     font-family: sans-serif;
 }
-#clickUpgrade{
+#clickuUpgrade{
     font-size: 24px;
     background-color: black;
     color: white; 
@@ -37,14 +39,15 @@ body {
     margin-right: auto;
     transition: 300ms ease;
     border-radius: 1rem;
-    padding: 0,5rem;
+    padding: 2rem;
+    margin-bottom: 2rem ;
 }
-#clickUpgrade:hover{
+#clickuUpgrade:hover{
     transform: scale(1.05);
     transition: 300ms ease;
     cursor: pointer;
 }
-#clickUpgrade:active{
+#clickuUpgrade:active{
     transform: scale(1.00);
    
 }
@@ -57,7 +60,8 @@ body {
     margin-right: auto;
     transition: 300ms ease;
     border-radius: 1rem;
-    padding: 0,5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 #autoclicker:hover{
     transform: scale(1.05);
