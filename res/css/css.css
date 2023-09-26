@@ -48,3 +48,23 @@ body {
     transform: scale(1.00);
    
 }
+#autoclicker{
+    font-size: 24px;
+    background-color: black;
+    color: white; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 300ms ease;
+    border-radius: 1rem;
+    padding: 0,5rem;
+}
+#autoclicker:hover{
+    transform: scale(1.05);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+#autoclicker:active{
+    transform: scale(1.00);
+   
+}
