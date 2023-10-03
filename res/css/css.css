@@ -83,4 +83,5 @@ body {
 #jablicko:hover{
     transform: scale(0.95);
     transition: 100ms;
+    display: block;
 }
