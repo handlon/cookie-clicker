@@ -34,6 +34,12 @@ susenka.onclick = () => {
     counter.innerHTML = "počet orea:" + numberOfCookies;
 }
 
+jablicko.onmouseover = () => {
+    console.log("prejety japko")
+    numberOfCookies ++;
+    counter.innerHTML = "popočet orea:" + numberOfCookies
+}
+
 function cheats() {
     console.log("cheats on!")
     numberOfCookies += 100000000000;
